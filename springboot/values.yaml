@@ -5,7 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: harbor.yulisys.com/kb-sbx/spring-boot
+  # repository: harbor.yulisys.com/kb-sbx/spring-boot
+  repository: lxtxl/spring-boot
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
